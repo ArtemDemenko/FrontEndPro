@@ -29,3 +29,9 @@ Hamburger.prototype.getCallories = function () {
 }
 
 const hamburger = new Hamburger(SIZE_MEDIUM);
+
+hamburger.addTopping(TOPPING_MAYO);
+hamburger.addTopping(TOPPING_POTATO);
+
+console.log("Price with sauce: " + hamburger.getPrice());
+console.log("Callories with sauce: " + hamburger.getCallories());
